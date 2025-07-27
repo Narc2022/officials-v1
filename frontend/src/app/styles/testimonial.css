@@ -17,6 +17,7 @@
 
 .slider__item p {
   margin-bottom: 30px;
+  margin: 0px 20px 30px 20px;
 }
 
 .customer__details {
@@ -36,4 +37,10 @@
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.customer__name {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  color: #fff;
 }

@@ -25,6 +25,27 @@ const Testimonial = () => {
     slidesToScroll: 1,
   };
 
+  const testimonialData = [
+    {
+      text: "Lorem ipsum dolor sit amet consectetur adipicing elit. Non expedita vel totam. Culpa, facilis iusto. Lorem ipsum dolor sit amet consectetur adipicing elit. Non expedita vel totam. Culpa, facilis iusto.",
+      img: ava01,
+      name: "John Doe",
+      role: "CEO, Work Creation",
+    },
+    {
+      text: "Exceptional service and seamless collaboration. A game-changer for our business. Exceptional service and seamless collaboration. A game-changer for our business.",
+      img: ava02,
+      name: "Jane Smith",
+      role: "CTO, TechEdge",
+    },
+    {
+      text: "The professionalism and attention to detail really stood out. Highly recommend! The professionalism and attention to detail really stood out. Highly recommend!",
+      img: ava03,
+      name: "Alex Johnson",
+      role: "Founder, Creatify",
+    },
+  ];
+
   return (
     <section>
       <div className="container">
@@ -36,26 +57,20 @@ const Testimonial = () => {
         </div>
         <div className="slider__wrapper">
           <Slider {...settings}>
-            <div className="slider__item">
-              <p className="description">
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipicing elit. Non
-                expedita vel totam. Culpa, facilis iusto.Lorem ipsum dolor sit
-                amet consectetur adipicing elit. Non expedita vel totam. Culpa,
-                facilis iusto.Lorem ipsum dolor sit amet consectetur adipicing
-                elit. Non expedita vel totam. Culpa, facilis iusto.Lorem ipsum
-                dolor sit amet consectetur adipicing elit.
-              </p>
-              <div className="customer__details">
-                <div className="customer__img">
-                  <img src={ava01.src} alt="" />
-                </div>
-                <div>
-                  <h5 className="customer__name">Jhon Doe</h5>
-                  <p className="description">CEO, Work creation</p>
+            {testimonialData.map((item, index) => (
+              <div className="slider__item" key={index}>
+                <p className="description">{item.text}</p>
+                <div className="customer__details">
+                  <div className="customer__img">
+                    <img src={item.img.src} alt={item.name} />
+                  </div>
+                  <div>
+                    <h5 className="customer__name">{item.name}</h5>
+                    <p className="description">{item.role}</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            ))}
           </Slider>
         </div>
       </div>
