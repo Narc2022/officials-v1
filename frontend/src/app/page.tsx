@@ -6,6 +6,7 @@ import About from "./components/UI/About";
 import Team from "./components/UI/Team";
 import Blog from "./components/UI/Blog";
 import Testimonial from "./components/UI/Testimonial";
+import Newsletter from "./components/UI/Newsletter";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Team />
       <Blog />
       <Testimonial />
+      <Newsletter />
     </>
   );
 }
