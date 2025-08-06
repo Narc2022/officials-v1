@@ -5,18 +5,23 @@
 .footer__wrapper {
   display: flex;
   justify-content: space-between;
+  column-gap: 2.5rem;
 }
 
 .footer__logo {
   width: 40%;
+  margin-top: 50px;
 }
 
-.footer__quick-links {
+.footer__quick_links {
   width: 20%;
+  margin-top: 50px;
+  /* margin-left: 50px; */
 }
 
 .footer__logo h2 {
   color: var(--primary-color);
+  margin-top: 0px;
 }
 
 .small__text {
@@ -33,6 +38,7 @@
 
 .quick__links {
   list-style: none;
+  padding-left: 0px;
 }
 
 .quick__link-item {
@@ -43,4 +49,15 @@
   font-style: 0.9rem;
   font-weight: 300;
   cursor: pointer;
+}
+
+.quick__link-item a:hover {
+  color: var(--primary-color);
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.573);
+  margin-top: 40px;
+  text-align: center;
+  font-style: 0.9rem;
 }
