@@ -29,7 +29,7 @@ const teamMembers = [
   },
 ];
 
-const Team = () => {
+const Team = ({ theme }) => {
   return (
     <section>
       <div className="container">

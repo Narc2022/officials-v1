@@ -36,7 +36,7 @@ const serviceData = [
               facilis iusto.`,
   },
 ];
-const Services = () => {
+const Services = ({ theme }) => {
   return (
     <section id="service">
       <div className="container">

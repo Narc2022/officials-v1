@@ -12,7 +12,7 @@ const counterData = [
     text: "Projects Completed",
   },
 ];
-const Counter = () => {
+const Counter = ({ theme }) => {
   return (
     <section className="counter" id="projects">
       <div className="container">

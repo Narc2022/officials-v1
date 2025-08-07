@@ -14,7 +14,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../../styles/testimonial.css";
 
-const Testimonial = () => {
+const Testimonial = ({ theme }) => {
   const settings = {
     dots: true,
     infinite: true,

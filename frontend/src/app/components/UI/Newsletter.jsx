@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/newsletter.css";
 
-const Newsletter = () => {
+const Newsletter = ({ theme }) => {
   return (
     <section className="newsletter">
       <div className="container">

@@ -22,7 +22,7 @@ const chooseData = [
   },
 ];
 
-const About = () => {
+const About = ({ theme }) => {
   return (
     <div id="about">
       <div className="container">

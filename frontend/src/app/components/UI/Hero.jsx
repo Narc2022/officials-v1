@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/hero.css";
 import heroDarkImg from "../../images/hero-img.png";
 
-const Hero = () => {
+const Hero = ({ theme }) => {
   console.log("heroDarkImg", heroDarkImg);
   return (
     <section className="hero__section">

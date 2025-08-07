@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/footer.css";
 
-const Footer = () => {
+const Footer = ({ theme }) => {
   const year = new Date().getFullYear();
   const quickLink01 = [
     {

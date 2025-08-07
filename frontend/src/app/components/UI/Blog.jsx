@@ -25,7 +25,7 @@ const blogData = [
   },
 ];
 
-const Blog = () => {
+const Blog = ({ theme }) => {
   return (
     <div>
       <div className="container">

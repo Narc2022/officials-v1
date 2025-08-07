@@ -22,15 +22,15 @@ export default function Home() {
   return (
     <>
       <Header theme={theme} toggleTheme={toggleTheme} />
-      <Hero />
-      <Counter />
-      <Services />
-      <About />
-      <Team />
-      <Blog />
-      <Testimonial />
-      <Newsletter />
-      <Footer />
+      <Hero theme={theme} />
+      <Counter theme={theme} />
+      <Services theme={theme} />
+      <About theme={theme} />
+      <Team theme={theme} />
+      <Blog theme={theme} />
+      <Testimonial theme={theme} />
+      <Newsletter theme={theme} />
+      <Footer theme={theme} />
     </>
   );
 }
