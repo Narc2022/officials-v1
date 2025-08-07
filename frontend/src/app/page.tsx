@@ -1,3 +1,4 @@
+"use client";
 import Header from "./components/Header/Header";
 import Hero from "./components/UI/Hero";
 import Counter from "./components/UI/Counter";
@@ -10,10 +11,17 @@ import Newsletter from "./components/UI/Newsletter";
 import Footer from "./components/UI/Footer";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useState } from "react";
 export default function Home() {
+  const [theme, setTheme] = useState("");
+
+  const toggleTheme = () => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
+    theme === "" ? setTheme("light-theme") : setTheme("");
+  };
   return (
     <>
-      <Header />
+      <Header theme={theme} toggleTheme={toggleTheme} />
       <Hero />
       <Counter />
       <Services />

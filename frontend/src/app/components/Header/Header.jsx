@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 
-const Header = () => {
+const Header = ({ theme, toggleTheme }) => {
   const nav__links = [
     {
       path: "#home",
