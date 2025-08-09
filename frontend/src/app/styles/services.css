@@ -39,3 +39,11 @@
   color: var(--primary-color);
   font-size: 1.3rem;
 }
+
+.light-theme .services__icon {
+  background-color: var(--primary-color);
+}
+
+.light-theme .services__icon i {
+  color: #ffffff;
+}

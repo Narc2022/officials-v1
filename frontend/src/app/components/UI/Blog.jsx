@@ -27,7 +27,7 @@ const blogData = [
 
 const Blog = ({ theme }) => {
   return (
-    <div>
+    <div id="blog" className="blog">
       <div className="container">
         <div className="blog__top-content">
           <h6 className="subtitle">Our Blog</h6>

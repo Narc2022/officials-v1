@@ -60,6 +60,8 @@
 body{
   background: var(--body-bg);
   font-family: var(--font-name);
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 a{
@@ -92,4 +94,22 @@ section {
   font-weight: 400;
   margin-bottom: 20px;
   margin-top: 0;
+}
+
+.light-theme .counter{
+  background: var(--counter-section-bg);
+}
+
+.light-theme .secondary_btn{
+  border: 1px solid var(--primary-color);
+  color: #090238;
+  font-weight: 500;
+}
+
+.light-theme a{
+  font-weight: 500;
+}
+
+.light-theme .team__img{
+  background: #ddd;
 }

@@ -1,3 +1,8 @@
+.blog {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .blog__top-content {
   text-align: center;
   margin-bottom: 50px;
@@ -50,4 +55,16 @@
 .blog__item:nth-child(2) {
   width: 28%;
   margin-top: -70px;
+}
+
+.light-theme .blog {
+  background: #effcff;
+}
+
+.light-theme .blog__item {
+  box-shadow: 5px 5px 15px -5px #999;
+}
+
+.light-theme .blog__item:nth-child(2) {
+  border: 1px solid var(--primary-color);
 }
