@@ -60,3 +60,7 @@
 .description {
   margin-top: 0px;
 }
+
+.light-theme .choose__us-title {
+  color: #0c123d;
+}

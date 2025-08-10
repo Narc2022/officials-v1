@@ -44,7 +44,7 @@ const Header = ({ theme, toggleTheme }) => {
             </ul>
           </div>
           {/* ============================== light mode =========================== */}
-          <div className="light__mode">
+          <div className={theme === "light-theme" ? "" : "light__mode"}>
             <span onClick={toggleTheme}>
               {theme === "light-theme" ? (
                 <span>

@@ -61,3 +61,11 @@
   text-align: center;
   font-style: 0.9rem;
 }
+
+.light-theme .quick__link-item a {
+  font-weight: 500;
+}
+
+.light-theme .copyright {
+  color: #555;
+}
