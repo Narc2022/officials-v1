@@ -87,16 +87,23 @@
   }
 
   .menu {
+    /* display: block; */
     flex-direction: column;
     background: #0c123d;
     width: 250px;
     height: 100%;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     position: absolute;
     top: 0;
     right: 0;
     z-index: 9999999;
+  }
+  .menu li {
+    position: relative;
+    box-sizing: border-box;
+    height: 50px;
+    /* height: calc(80vh / 5); */
   }
 
   .menu__active {
@@ -105,10 +112,5 @@
 
   .mobile__menu {
     display: block;
-  }
-
-  .menu__item {
-    /* height: calc(100vh / 5); */
-    /* background: #000; */
   }
 }
