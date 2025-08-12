@@ -57,6 +57,13 @@
   --team-card-bg: #fff;
 }
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 body{
   background: var(--body-bg);
   font-family: var(--font-name);
@@ -112,4 +119,10 @@ section {
 
 .light-theme .team__img{
   background: #ddd;
+}
+
+@media only screen and (max-width:1024px){
+  .container{
+    width: 100%;
+  }
 }

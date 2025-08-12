@@ -38,7 +38,7 @@ const serviceData = [
 ];
 const Services = ({ theme }) => {
   return (
-    <section id="service">
+    <section id="services">
       <div className="container">
         <div className="services__top-content">
           <h6 className="subtitle">Our Services</h6>
