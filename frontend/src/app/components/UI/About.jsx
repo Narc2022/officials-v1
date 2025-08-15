@@ -24,7 +24,7 @@ const chooseData = [
 
 const About = ({ theme }) => {
   return (
-    <div id="about">
+    <div className="section" id="about">
       <div className="container">
         <div className="about__wrapper">
           <div className="about__content">

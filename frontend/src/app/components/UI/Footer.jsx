@@ -48,7 +48,7 @@ const Footer = ({ theme }) => {
     },
   ];
   return (
-    <footer>
+    <footer className="">
       <div className="container">
         <div className="footer__wrapper">
           <div className="footer__logo">
