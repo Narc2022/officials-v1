@@ -41,3 +41,20 @@
   background: var(--primary-color);
   color: #fff;
 }
+@media only screen and (max-width: 768px) {
+  .newsletter__wrapper {
+    flex-wrap: wrap;
+  }
+  .newsletter__content,
+  .newsletter__form {
+    width: 100%;
+  }
+  .newsletter__content {
+    margin-bottom: 30px;
+  }
+  .newsletter__form input {
+    padding: 8px 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+}

@@ -44,3 +44,19 @@
   margin-bottom: 0;
   color: #fff;
 }
+
+@media only screen and (max-width: 992px) {
+  .slider__content-top h2 {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .slider__wrapper {
+    width: 90%;
+  }
+  .customer__name {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+}

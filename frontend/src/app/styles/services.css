@@ -47,3 +47,31 @@
 .light-theme .services__icon i {
   color: #ffffff;
 }
+
+@media only screen and (max-width: 992px) {
+  .services__top-content {
+    font-size: 1.5rem;
+  }
+  .service__item-wrapper {
+    flex-wrap: wrap;
+  }
+  .services__item {
+    width: 31%;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .services__item {
+    width: 47%;
+    margin-bottom: 30px;
+  }
+
+  .service__title {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .services__item {
+    width: 100%;
+  }
+}
