@@ -14,6 +14,7 @@ python -m venv venv
 venv\Scripts\activate
 
 <!-- setup fast api and env  -->
+https://www.youtube.com/watch?v=0zb2kohYZIM
 pip install fastapi uvicorn sqlalchemy 
 
  python3 -m venv env    
